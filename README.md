@@ -31,19 +31,18 @@ cart-service/
 │ └── db.js # Database connection
 │
 ├── controllers/
-│ └── cartController.js
+│ └── cart.controller.js
 │
 ├── middlewares/
+│ └── cart.validation.js
 │ └── validateRequest.js
 │
 ├── models/
 │ └── Cart.js
 │
 ├── routes/
-│ └── cartRoutes.js
+│ └── cart.routes.js
 │
-├── validations/
-│ └── cartValidation.js
 │
 ├── server.js # Main entry point
 ├── .env # Environment variables
@@ -56,8 +55,8 @@ cart-service/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/cart-service.git
-cd cart-service
+git clone https://github.com/BouzirJawad/cart-micro.git
+cd cart-micro
 ````
 
 ### 2. Install dependencies
@@ -67,8 +66,8 @@ npm install
 
 ### 3. Configure environment variables
 ```bash
-PORT=5004
-MONGO_URI=mongodb://localhost:27017/cartdb
+PORT=port-of-your-choice
+MONGODB_URL=mongodb://localhost:27017/name-of-your-choice
 ```
 
 ### 4. Run the service
