@@ -1,4 +1,4 @@
-# 🛒 Cart Service - Aluminum E-Commerce Platform
+# 🛒 Cart Service 
 
 This microservice handles **shopping cart functionality** for both **logged-in users** and **guests** in the aluminum e-commerce platform.  
 It supports adding/removing products, updating quantities, clearing cart, and merging guest cart into user cart on login.
